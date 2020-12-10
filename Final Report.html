@@ -18,12 +18,24 @@
 <img src="Images/Carbon_Tax_USD_per_tonne_.jpg" alt="alt tag" class="inline"  />
 
 
-<p><img src="https://github.com/nitharjank/MLProject/blob/master/Result/EV_Tax_Credit_perc__Increasing.jpg" alt="alt tag" /> <img src="https://github.com/nitharjank/MLProject/blob/master/Result/EV_Tax_Credit_perc_.jpg" alt="alt tag" /></p>
-<p><img src="https://github.com/nitharjank/MLProject/blob/master/Result/EV_Tax_Credit_USD__Increasing.jpg" alt="alt tag" /> <img src="https://github.com/nitharjank/MLProject/blob/master/Result/EV_Tax_Credit_USD_.jpg" alt="alt tag" /></p>
-<p><img src="https://github.com/nitharjank/MLProject/blob/master/Result/Solar_Power_MW__Increasing.jpg" alt="alt tag" /> <img src="https://github.com/nitharjank/MLProject/blob/master/Result/Solar_Power_MW_.jpg" alt="alt tag" /></p>
-<p><img src="https://github.com/nitharjank/MLProject/blob/master/Result/GDP_per_capita_ppp.jpg" alt="alt tag" /> <img src="https://github.com/nitharjank/MLProject/blob/master/Result/GDP_USD.jpg" alt="alt tag" /></p>
-<p><img src="https://github.com/nitharjank/MLProject/blob/master/Result/Solar_Subsidies_perc__Increasing.jpg" alt="alt tag" /> <img src="https://github.com/nitharjank/MLProject/blob/master/Result/Solar_Subsidies_perc_.jpg" alt="alt tag" /></p>
-<p><img src="https://github.com/nitharjank/MLProject/blob/master/Result/wind_Turbine_MW__Increasing.jpg" alt="alt tag" /> <img src="https://github.com/nitharjank/MLProject/blob/master/Result/wind_Turbine_MW_.jpg" alt="alt tag" /></p>
+<img src="Images/EV_Tax_Credit_perc__Increasing.jpg" alt="alt tag" class="inline" />
+<img src="Images/EV_Tax_Credit_perc_.jpg" alt="alt tag" class="inline" />
+
+<img src="Images/EV_Tax_Credit_USD__Increasing.jpg" alt="alt tag" class="inline" />
+<img src="Images/EV_Tax_Credit_USD_.jpg" alt="alt tag" class="inline" />
+
+<img src="Images/Solar_Power_MW__Increasing.jpg" alt="alt tag" class="inline" />
+<img src="Images/Solar_Power_MW_.jpg" alt="alt tag" class="inline" />
+
+<img src="Images/GDP_per_capita_ppp.jpg" alt="alt tag" class="inline" />
+<img src="Images/GDP_USD.jpg" alt="alt tag" class="inline" />
+
+<img src="Images/Solar_Subsidies_perc__Increasing.jpg" alt="alt tag" class="inline" />
+<img src="Images/Solar_Subsidies_perc_.jpg" alt="alt tag" class="inline" />
+
+<img src="Images/wind_Turbine_MW__Increasing.jpg" alt="alt tag" class="inline" />
+<img src="Images/wind_Turbine_MW_.jpg" alt="alt tag" class="inline" />
+
 <h3 id="discussion">Discussion</h3>
 <p>The results of this project indicate that the model is very robust; however, upon closer inspection, one can see that there are issues present within the model. For starters, an increase in solar power usage is attributed to an increase in emissions in a vacuum; this is clearly incorrect based on common sense. That being said, an important point is drawn from the R^2 score being very high only after sorting the data by year: The model is dependent on having prior data on a country before it can make an accurate prediction. This is important because the model is explicitly designed to be a strong predictor of emissions for a country in order to determine the efficacy of certain measures and policies in reducing carbon dioxide emissions, so it is not unreasonable to need or use data from previous years of a country before running tests.</p>
 <p>Another issue which the project ran into was determining which features should be included. Though one might initially think that one would want as many features as is possible, this is incorrect since the model could struggle to find the correct relationship. The group ended up agreeing on using data on solar and wind power, two of the most prevalent, safe forms of green energy, carbon tax rates, electric vehicle tax credits, population, and GDP information. Though these are each important, the dataset could be improved by having more data and features. Given more resources and a larger team, this model could be expanded upon in a way that would likely not only increase performance but also increase the likelihood that any data that was used (regardless of previous information about the country) would be accurate. Lastly, as seen in the graphs above, the model is not very accurate when working with a population of one-hundred million. That being said, there weren’t any countries in the database that had data that looked like what was used in the graphs. With more data, this would likely be fixed.</p>
